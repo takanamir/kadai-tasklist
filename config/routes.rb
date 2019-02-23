@@ -5,8 +5,6 @@ Rails.application.routes.draw do
 
   get 'sessions/destroy'
 
-  root to: 'toppages#index'
-
   get 'users/index'
   get 'users/show'
   get 'users/new'
